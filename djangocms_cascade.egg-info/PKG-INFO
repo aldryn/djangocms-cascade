@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: djangocms-cascade
-Version: 0.3.2.2
+Version: 0.3.2.3
 Summary: Collection of plugins for DjangoCMS >3.0 to add various HTML elements from CSS frameworks to any CMS placeholder
 Home-page: https://github.com/jrief/djangocms-cascade
 Author: Jacob Rief
