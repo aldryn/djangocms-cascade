@@ -1,0 +1,14 @@
+{
+    "name": "djangocms-cascade",
+    "description": "Collection of plugins for DjangoCMS to work on a subset of the DOM inside placeholders.",
+    "url": "https://github.com/aldryn/djangocms-cascade",
+    "package-name": "djangocms-cascade",
+    "installed-apps": ["cmsplugin_cascade", "cms"],
+    "author": {
+        "name": "Jacob Rief",
+        "url": "https://github.com/jrief"
+    },
+    "license": {
+        "name": "MIT"
+    }
+}
