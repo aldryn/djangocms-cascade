@@ -3,6 +3,27 @@
 ===============
 Release History
 ===============
+
+0.4.2
+-----
+* Fixed: Allow empty setting for CMSPLUGIN_CASCADE_PLUGINS
+* Fixed: Use str(..) instead of b'' in combination with from __future__ import unicode_literals
+
+0.4.1
+-----
+* Fixed: Exception when saving a ContainerPlugin with only one breakpoint.
+* The ``required`` flag on a field for an inherited LinkPlugin is set to False for shared settings.
+* Fixed: Client side code for disabling shared settings did not work.
+
+0.4.0
+-----
+* Renamed ``context`` from model ``CascadeElement`` to ``glossary`. The identifier ``context`` lead
+  to too much confusion, since it is used all way long in other CMS plugins, where it has a
+  complete different meaning.
+* Renamed ``partial_fields`` in all plugins to ``glossary_fields``, since that's the model field
+  where they keep their information.
+* Huge refactoring of the code base, allowing a lot of more features.
+
 0.3.2
 -----
 * Fixed: Missing unicode conversion for method ``get_identifier()``
